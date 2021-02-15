@@ -1,8 +1,8 @@
 name: action
 on: push
-  jobs: 
+jobs: 
     job0:
-      runs-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
-          - uses: actions/checkout@v2
-          - run: pwd
+            - uses: actions/checkout@v2
+            - run: pwd
